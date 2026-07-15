@@ -3,6 +3,6 @@ title: 'Gallery'
 date: '2026-07-15'
 ---
 
-<img src="/images/snow-girl.jpg" alt="Gallery image" />
+![Gallery image](/images/snow-girl.jpg)
 
 "Snow girl" June 6th, 2026

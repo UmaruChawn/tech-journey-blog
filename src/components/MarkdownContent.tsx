@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import type { ImageProps } from 'next/image'
 import ReactMarkdown from 'react-markdown'
 
 type Props = {
