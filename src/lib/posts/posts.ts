@@ -7,10 +7,9 @@ import path from 'path'
 // Import 'gray-matter', library for parsing the metadata in each markdown file
 import matter from 'gray-matter'
 
-// Import 'remark', library for rendering markdown
+// Import 'remark' for rendering markdown
 import { remark } from 'remark'
 import html from 'remark-html'
-import {Plugin} from "unified";
 
 // --------------------------------
 // GET THE PATH OF THE POSTS FOLDER
@@ -110,7 +109,7 @@ export async function getPostData(id: string) {
   const matterResult = matter(fileContents)
 
   // Use remark to convert markdown into HTML string
-  const processedContent = await remark().use(html as Plugin).process(matterResult.content);
+  const processedContent = await remark().use(html).process(matterResult.content)
 
   const contentHtml = processedContent.toString()
 
