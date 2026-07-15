@@ -11,7 +11,7 @@ type AllPostsData = {
 }[]
 
 // Change this url to change the image!
-const imageUrl = '"C:\Users\Sheen\Downloads\Forest.jpg"';
+const imageUrl = '"/Images/Forest.jpg"';
 
 export default function Home() {
   const allPostsData: AllPostsData = getSortedPostsData()
