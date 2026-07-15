@@ -10,8 +10,9 @@ type AllPostsData = {
   id: string
 }[]
 
-// Change this url to change the image!
-const imageUrl = '"/images/Forest.jpg"';
+// Change this URL to update the image.
+// Use a file that exists in the public/images folder.
+const imageUrl = '/images/mountain.jpg';
 
 export default function Home() {
   const allPostsData: AllPostsData = getSortedPostsData()
