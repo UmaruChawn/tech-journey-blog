@@ -7,10 +7,6 @@ import path from 'path'
 // Import 'gray-matter', library for parsing the metadata in each markdown file
 import matter from 'gray-matter'
 
-// Import 'remark' for rendering markdown
-import { remark } from 'remark'
-import html from 'remark-html'
-
 // --------------------------------
 // GET THE PATH OF THE POSTS FOLDER
 const postsDirectory = path.join(process.cwd(), 'posts') // process.cwd() returns the absolute path of the current working directory
@@ -108,15 +104,10 @@ export async function getPostData(id: string) {
   // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents)
 
-  // Use remark to convert markdown into HTML string
-  const processedContent = await remark().use(html).process(matterResult.content)
-
-  const contentHtml = processedContent.toString()
-
   // Combine the data with the id
   return {
     id,
-    contentHtml,
+    contentHtml: matterResult.content,
     ...(matterResult.data as { date: string; title: string }),
   }
 }

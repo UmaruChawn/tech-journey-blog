@@ -1,4 +1,5 @@
 import Date from '@/components/Date'
+import MarkdownContent from '@/components/MarkdownContent'
 import {getPostData} from '@/lib/posts'
 
 type Props = {
@@ -30,7 +31,7 @@ export default async function Post(props: Props) {
       <article className={'prose'}>
         <h1>{postData.title} </h1>
         <Date dateString={postData.date}/>
-        <div dangerouslySetInnerHTML={{__html: postData.contentHtml}}/>
+        <MarkdownContent content={postData.contentHtml} />
       </article>
   )
 }
