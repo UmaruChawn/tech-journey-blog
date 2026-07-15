@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: #fff8fc;
+  color: #4b2e3f;
+}
 
 .sprite:hover {
     animation: hop 300ms infinite;
