@@ -15,11 +15,12 @@ export default function MarkdownContent({ content }: Props) {
           }
 
           const imageSrc = typeof src === 'string' ? src : '/images/placeholder.jpg'
+          const normalizedSrc = imageSrc.startsWith('/') ? imageSrc : `/${imageSrc}`
 
           return (
             <div className="my-4">
               <Image
-                src={imageSrc}
+                src={normalizedSrc}
                 alt={alt || ''}
                 width={800}
                 height={600}
