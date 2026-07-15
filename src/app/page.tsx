@@ -2,17 +2,14 @@ import Link from 'next/link'
 import Date from '@/components/Date'
 
 import {getSortedPostsData} from '@/lib/posts'
-import Image from "next/image";
+import Image from 'next/image'
+import forestImage from '../../public/images/Forest.jpg'
 
 type AllPostsData = {
   date: string
   title: string
   id: string
 }[]
-
-// Change this URL to update the image.
-// Use a file that exists in the public/images folder.
-const imageUrl = '/images/mountain.jpg';
 
 export default function Home() {
   const allPostsData: AllPostsData = getSortedPostsData()
@@ -38,7 +35,7 @@ export default function Home() {
         </section>
 
         <div className={'my-4'}>
-          <Image className={'rounded'} src={imageUrl} alt={'My Image'} width={500}
+          <Image className={'rounded'} src={forestImage} alt={'My Image'} width={500}
                  height={500}/>
         </div>
 
