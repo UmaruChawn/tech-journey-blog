@@ -1,30 +1,8 @@
 ---
-title: 'Tech Journey 2026 - Welcome'
+title: 'About me info'
 date: '2026-07-15'
 ---
 
-Welcome to Tech Journey! Let's make some cool sites!
+I'm a young Tai Dam artist born in Des Moines, Iowa.
 
-What is your name, your favorite pokemon or something you like.
-
-- Luke (facilatator) - Snorlax
-- Mayank (helper) - Psyduck
-- Sierra (helper) - Cats
-- Mathani - Track
-- Ava - Gengar
-- Samuel - Dragonair
-- Dominic - Espurr
-- Olive - Emolga
-- Jesse - Haxorus
-- Karar - Psyduck
-- Musau - Eevee
-- Rania - Mewtwo
-- Sheeta - Gengar
-- Liam - Wishiwashi
-- Marcus - Geodude
-- Carter - Bidoof
-- Danaya - Cats
-- Ryan - Ryquaza
-- Ayla - Cubone
-- Gentry - Wightbaking
-
+I started my art journey back in my elementary days! I was often described as "talented" by the peers around me. Which encouraged me to to get into a few art programs and eventually into tech programs, these programs really helped me make new connections by working with others and expanding on ideas/concepts.
