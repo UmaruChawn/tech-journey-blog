@@ -13,7 +13,7 @@ const font = Karla({ weight: '400', subsets: ['latin']})
 const title = 'Sheeta\'s Site';
 const description = 'This my personal site';
 const links = [
-  {title: 'Pokemon', href: '/pokemon'},
+  {title: 'Minesweeper', href: 'https://minesweeperonline.com'},
   {title: 'Rick and Morty', href: '/rick-and-morty'}
 ];
 const SocialLinks = {
