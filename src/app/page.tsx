@@ -11,7 +11,7 @@ type AllPostsData = {
 }[]
 
 // Change this url to change the image!
-const imageUrl = '/images/snorlax.jpg';
+const imageUrl = 'C:/Users/Sheen/OneDrive/Pictures/Angel bi';
 
 export default function Home() {
   const allPostsData: AllPostsData = getSortedPostsData()
