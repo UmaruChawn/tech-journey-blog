@@ -18,48 +18,61 @@ body {
   --color-base-200: #57255e;
   --color-primary: #bf5d93;
   --color-secondary: #bf5d93;
-  --color-accent: #d97fb3;
+  --color-accent: #57255e;
   --color-neutral: #6f3a67;
   --color-base-content: #ffffff;
   --color-primary-content: #ffffff;
   --color-secondary-content: #ffffff;
   --color-accent-content: #ffffff;
   --color-neutral-content: #ffffff;
+  --site-bg: #ffe9f3;
+  --site-surface: rgba(255, 255, 255, 0.95);
+  --site-text: #3f1437;
+  --site-border: #e8a7c7;
+}
+
+html[data-theme="valentine"] {
+  --color-base-100: #bf5d93;
+  --color-base-200: #57255e;
+  --color-primary: #bf5d93;
+  --color-secondary: #bf5d93;
+  --color-accent: #57255e;
+  --color-neutral: #6f3a67;
 }
 
 body {
-  background: linear-gradient(135deg, #ffecf6 0%, #f8b8d3 100%) !important;
-  color: #3f1437 !important;
+  background: linear-gradient(135deg, var(--color-base-100) 0%, var(--color-base-200) 100%) !important;
+  color: var(--site-text) !important;
   min-height: 100vh;
 }
 
 main, article, section, .navbar, .footer, .card, .menu, .drawer-side, .glass {
-  background-color: rgba(255, 255, 255, 0.95) !important;
-  color: #3f1437 !important;
-  border: 1px solid #e8a7c7 !important;
+  background-color: var(--site-surface) !important;
+  color: var(--site-text) !important;
+  border: 1px solid var(--site-border) !important;
 }
 
 .btn-primary,
 .btn-secondary,
 .btn-accent {
-  color: white !important;
+  color: var(--color-base-content) !important;
   border-color: transparent !important;
 }
 
 .btn-primary {
-  background-color: #bf5d93 !important;
+  background-color: var(--color-primary) !important;
 }
 
 .btn-secondary {
-  background-color: #d97fb3 !important;
+  background-color: var(--color-secondary) !important;
 }
 
 .btn-accent {
-  background-color: #57255e !important;
+  background-color: var(--color-accent) !important;
 }
 
 a {
-  color: #bf5d93 !important;
+  color: var(--color-primary) !important;
 }
 
 .sprite:hover {
