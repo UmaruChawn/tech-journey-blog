@@ -4,26 +4,50 @@
 
 :root {
   color-scheme: light;
+  --color-base-100: #bf5d93;
+  --color-base-200: #57255e;
+  --color-primary: #bf5d93;
+  --color-secondary: #bf5d93;
+  --color-accent: #d97fb3;
+  --color-neutral: #6f3a67;
+  --color-base-content: #ffffff;
+  --color-primary-content: #ffffff;
+  --color-secondary-content: #ffffff;
+  --color-accent-content: #ffffff;
+  --color-neutral-content: #ffffff;
 }
 
 body {
-  background-color: #fff3f7 !important;
-  color: #7a355c !important;
+  background: linear-gradient(135deg, #fff5fa 0%, #fce4f0 100%) !important;
+  color: #57255e !important;
 }
 
-main, article, section, .navbar, .footer, .card, .btn, .menu, .drawer-side, .glass {
-  background-color: #fff9fc !important;
-  color: #7a355c !important;
+main, article, section, .navbar, .footer, .card, .menu, .drawer-side, .glass {
+  background-color: rgba(255, 248, 251, 0.9) !important;
+  color: #57255e !important;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-accent {
+  color: white !important;
+  border-color: transparent !important;
 }
 
 .btn-primary {
-  background-color: #f472b6 !important;
-  border-color: #f472b6 !important;
-  color: white !important;
+  background-color: #bf5d93 !important;
+}
+
+.btn-secondary {
+  background-color: #d97fb3 !important;
+}
+
+.btn-accent {
+  background-color: #57255e !important;
 }
 
 a {
-  color: #be185d !important;
+  color: #bf5d93 !important;
 }
 
 .sprite:hover {
