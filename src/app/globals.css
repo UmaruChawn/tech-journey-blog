@@ -18,13 +18,14 @@
 }
 
 body {
-  background: linear-gradient(135deg, #fff5fa 0%, #fce4f0 100%) !important;
-  color: #57255e !important;
+  background: linear-gradient(135deg, #ffecf6 0%, #f8b8d3 100%) !important;
+  color: #3f1437 !important;
 }
 
 main, article, section, .navbar, .footer, .card, .menu, .drawer-side, .glass {
-  background-color: rgba(255, 248, 251, 0.9) !important;
-  color: #57255e !important;
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  color: #3f1437 !important;
+  border: 1px solid #e8a7c7 !important;
 }
 
 .btn-primary,
