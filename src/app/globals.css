@@ -7,8 +7,23 @@
 }
 
 body {
-  background-color: #fff8fc;
-  color: #4b2e3f;
+  background-color: #fff3f7 !important;
+  color: #7a355c !important;
+}
+
+main, article, section, .navbar, .footer, .card, .btn, .menu, .drawer-side, .glass {
+  background-color: #fff9fc !important;
+  color: #7a355c !important;
+}
+
+.btn-primary {
+  background-color: #f472b6 !important;
+  border-color: #f472b6 !important;
+  color: white !important;
+}
+
+a {
+  color: #be185d !important;
 }
 
 .sprite:hover {
