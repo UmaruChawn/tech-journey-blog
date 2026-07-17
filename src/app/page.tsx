@@ -17,7 +17,7 @@ export default function Home() {
   return (
       <div>
         <section>
-          <p className={'prose'}>
+          <p className={'prose text-[#3f1437]'}>
             Hey I&apos;m Sheeta. This is my site.
           </p>
           <div className={'my-4'}>
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
 
         <section className={'prose'}>
-          <h2>Blog</h2>
+          <h2 className={'text-[#3f1437]'}>Blog</h2>
           <ul>
             {allPostsData.map(({id, date, title}) => (
                 <li key={id}>

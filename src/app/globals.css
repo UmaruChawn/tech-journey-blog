@@ -75,6 +75,15 @@ a {
   color: var(--color-primary) !important;
 }
 
+.prose h1,
+.prose h2,
+.prose p,
+.prose li,
+.prose small,
+.prose a {
+  color: #3f1437 !important;
+}
+
 .sprite:hover {
     animation: hop 300ms infinite;
 }
